@@ -143,7 +143,7 @@ start_attachment(DbName, DocId, AName) ->
     {ok, Pid}.
 
 %%--------------------------------------------------------------------
-q%% Function: next_attachment_bytes(Pid) -> {ok, done} | {error,Error}
+%% Function: next_attachment_bytes(Pid) -> {ok, done} | {error,Error}
 %% Description: Fetch attachment bytes
 %%--------------------------------------------------------------------
 next_attachment_bytes(Pid) ->
